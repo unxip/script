@@ -1,0 +1,14 @@
+-- _G.farm = true
+local Farm = {}
+local lp = game.Players.LocalPlayer
+local function dead()
+if lp.Character.Humanoid.Health == 0 then
+    wait(5)
+    else
+end
+end
+while _G.farm do
+    dead()
+lp.Character.HumanoidRootPart.CFrame = lp.Character.HumanoidRootPart.CFrame + Vector3.new(-3000,0, 70)
+wait(0.1)
+    end
