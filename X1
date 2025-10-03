@@ -164,7 +164,6 @@ local function stopOrbit()
 end
 
 -- ================== UI TOGGLES ==================
-Tabs.Troll:AddSection("Part Manipulation")
 Tabs.Troll:AddToggle("PushPartsToggle", {
     Title = "Push boat near you away (op)",
     Default = false,
